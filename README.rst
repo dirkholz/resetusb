@@ -33,8 +33,8 @@ On ubuntu you can get most of these through apt::
    sudo apt-get install libusb-dev
 
 
-build
-^^^^^
+build and install
+^^^^^^^^^^^^^^^^^
 To build you should just follow a normal cmake recipe::
    
    cd resetusb
@@ -43,6 +43,12 @@ To build you should just follow a normal cmake recipe::
    cmake ..
    make
    sudo make install
+
+uninstall
+^^^^^^^^^
+To uninstall resetusb simply run::
+   cd resetusb/build
+   sudo make uninstall
 
 Running
 =======
